@@ -1,8 +1,8 @@
 package seeders
 
 import (
-	"simpel-wasnaker/ipak3/database"
-	"simpel-wasnaker/ipak3/repository"
+	"github.com/agusbasari29/simru-be/ipak3/database"
+	"github.com/agusbasari29/simru-be/ipak3/repository"
 
 	"gorm.io/gorm"
 )

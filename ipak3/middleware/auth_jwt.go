@@ -4,8 +4,8 @@ import (
 	"errors"
 	"log"
 	"net/http"
-	"github.com/agusbasari29/simru-be/helper"
-	"github.com/agusbasari29/simru-be/service"
+	"github.com/agusbasari29/simru-be/ipak3/helper"
+	"github.com/agusbasari29/simru-be/ipak3/service"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

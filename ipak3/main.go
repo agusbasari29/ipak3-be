@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/agusbasari29/simru-be/database"
-	"github.com/agusbasari29/simru-be/database/seeders"
-	"github.com/agusbasari29/simru-be/entity"
-	"github.com/agusbasari29/simru-be/router"
+	"github.com/agusbasari29/simru-be/ipak3/database"
+	"github.com/agusbasari29/simru-be/ipak3/database/seeders"
+	"github.com/agusbasari29/simru-be/ipak3/entity"
+	"github.com/agusbasari29/simru-be/ipak3/router"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"

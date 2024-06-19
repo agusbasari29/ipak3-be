@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/agusbasari29/simru-be/config"
+	"github.com/agusbasari29/simru-be/ipak3/config"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

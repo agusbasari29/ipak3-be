@@ -1,6 +1,6 @@
 package response
 
-import "github.com/agusbasari29/simru-be/entity"
+import "github.com/agusbasari29/simru-be/ipak3/entity"
 
 type UserDataResponse struct {
 	User       interface{} `json:"user_data"`

@@ -2,10 +2,10 @@ package handler
 
 import (
 	"net/http"
-	"github.com/agusbasari29/simru-be/helper"
-	"github.com/agusbasari29/simru-be/request"
-	"github.com/agusbasari29/simru-be/response"
-	"github.com/agusbasari29/simru-be/service"
+	"github.com/agusbasari29/simru-be/ipak3/helper"
+	"github.com/agusbasari29/simru-be/ipak3/request"
+	"github.com/agusbasari29/simru-be/ipak3/response"
+	"github.com/agusbasari29/simru-be/ipak3/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
