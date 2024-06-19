@@ -1,12 +1,12 @@
-package p2ak3
+package entity
 
 import "gorm.io/gorm"
 
-func (P2ak3Contact) TableName() string {
+func (Contact) TableName() string {
 	return "p2ak3_contacts"
 }
 
-type P2ak3Contact struct {
+type Contact struct {
 	gorm.Model
 	ID    uint64 `gorm:"primaryKey;autoIncrement"`
 	Email string

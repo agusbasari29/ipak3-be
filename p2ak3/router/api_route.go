@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/agusbasari29/simru-be/helper"
-	"github.com/agusbasari29/simru-be/middleware"
-	"github.com/agusbasari29/simru-be/service"
+	"github.com/agusbasari29/simru-be/p2ak3/helper"
+	"github.com/agusbasari29/simru-be/p2ak3/middleware"
+	"github.com/agusbasari29/simru-be/p2ak3/service"
 
 	"github.com/gin-gonic/gin"
 )

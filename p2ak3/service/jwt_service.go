@@ -3,8 +3,8 @@ package service
 import (
 	"fmt"
 	"os"
-	"github.com/agusbasari29/simru-be/ipak3"
-	"github.com/agusbasari29/simru-be/response"
+	"github.com/agusbasari29/simru-be/p2ak3/entity"
+	"github.com/agusbasari29/simru-be/p2ak3/response"
 	"strings"
 	"time"
 

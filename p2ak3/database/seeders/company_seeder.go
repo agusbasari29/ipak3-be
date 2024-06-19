@@ -1,7 +1,7 @@
 package seeders
 
 import (
-	"simpel-wasnaker/ipak3/entity"
+	"github.com/agusbasari29/simru-be/p2ak3/entity"
 	"strconv"
 	"time"
 )

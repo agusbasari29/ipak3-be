@@ -2,9 +2,9 @@ package handler
 
 import (
 	"net/http"
-	"github.com/agusbasari29/simru-be/helper"
-	"github.com/agusbasari29/simru-be/request"
-	"github.com/agusbasari29/simru-be/service"
+	"github.com/agusbasari29/simru-be/p2ak3/helper"
+	"github.com/agusbasari29/simru-be/p2ak3/request"
+	"github.com/agusbasari29/simru-be/p2ak3/service"
 
 	"github.com/gin-gonic/gin"
 )

@@ -1,9 +1,9 @@
-package ipak3
+package entity
 
 import "gorm.io/gorm"
 
-func (Ipak3Business) TableName() string {
-	return "ipak3_businesses"
+func (Business) TableName() string {
+	return "p2ak3_businesses"
 }
 
 type TypeOfCompany string
@@ -24,7 +24,7 @@ const (
 	Balai LegalStatus = "Balai"
 )
 
-type Ipak3Business struct {
+type Business struct {
 	gorm.Model
 	ID            uint64 `gorm:"primaryKey;autoIncrement"`
 	BusinessType  string

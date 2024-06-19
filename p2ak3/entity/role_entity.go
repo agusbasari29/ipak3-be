@@ -1,12 +1,12 @@
-package ipak3
+package entity
 
 import "gorm.io/gorm"
 
-func (Ipak3Role) TableName() string {
-	return "ipak3_roles"
+func (Role) TableName() string {
+	return "p2ak3_roles"
 }
 
-type Ipak3Role struct {
+type Role struct {
 	gorm.Model
 	ID   uint64 `gorm:"primaryKey;autoIncrement"`
 	Name string

@@ -1,4 +1,4 @@
-package ipak3
+package entity
 
 import "gorm.io/gorm"
 
@@ -6,11 +6,11 @@ type Tabler interface {
 	TableName() string
 }
 
-func (Ipak3User) TableName() string {
-	return "ipak3_users"
+func (User) TableName() string {
+	return "p2ak3_users"
 }
 
-type Ipak3User struct {
+type User struct {
 	gorm.Model
 	ID         uint64 `gorm:"primaryKey;autoIncrement"`
 	Username   string
@@ -18,9 +18,9 @@ type Ipak3User struct {
 	FullName   string
 	EmployeeID string
 	ContactID  uint64
-	Contact    Ipak3Contact //`gorm:"foreignKey:ContactID"`
+	Contact    Contact //`gorm:"foreignKey:ContactID"`
 	CompanyID  uint64
-	Company    Ipak3Company //`gorm:"foreignKey:CompanyID"`
+	Company    Company //`gorm:"foreignKey:CompanyID"`
 	RoleID     uint64
-	Role       Ipak3Role //`gorm:"references:ID"`
+	Role       Role //`gorm:"references:ID"`
 }

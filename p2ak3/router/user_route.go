@@ -1,11 +1,11 @@
 package router
 
 import (
-	"github.com/agusbasari29/simru-be/database"
-	"github.com/agusbasari29/simru-be/handler"
-	"github.com/agusbasari29/simru-be/helper"
-	"github.com/agusbasari29/simru-be/repository"
-	"github.com/agusbasari29/simru-be/service"
+	"github.com/agusbasari29/simru-be/p2ak3/database"
+	"github.com/agusbasari29/simru-be/p2ak3/handler"
+	"github.com/agusbasari29/simru-be/p2ak3/helper"
+	"github.com/agusbasari29/simru-be/p2ak3/repository"
+	"github.com/agusbasari29/simru-be/p2ak3/service"
 
 	"github.com/gin-gonic/gin"
 )

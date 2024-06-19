@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/agusbasari29/simru-be/entity"
+	"github.com/agusbasari29/simru-be/p2ak3/entity"
 
 	"gorm.io/gorm"
 )

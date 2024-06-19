@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/agusbasari29/simru-be/entity/"
-	"github.com/agusbasari29/simru-be/repository"
-	"github.com/agusbasari29/simru-be/request"
+	"github.com/agusbasari29/simru-be/p2ak3/entity"
+	"github.com/agusbasari29/simru-be/p2ak3/repository"
+	"github.com/agusbasari29/simru-be/p2ak3/request"
 
 	"golang.org/x/crypto/bcrypt"
 )

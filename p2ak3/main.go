@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/agusbasari29/simru-be/database"
-	"github.com/agusbasari29/simru-be/database/seeders"
-	"github.com/agusbasari29/simru-be/p2ak3"
-	"github.com/agusbasari29/simru-be/router"
+	"github.com/agusbasari29/simru-be/p2ak3/database"
+	"github.com/agusbasari29/simru-be/p2ak3/database/seeders"
+	"github.com/agusbasari29/simru-be/p2ak3/entity"
+	"github.com/agusbasari29/simru-be/p2ak3/router"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
@@ -24,7 +24,7 @@ var (
 
 func main() {
 	defer database.CloseDatabaseConnection(db)
-	db.AutoMigrate(&p2ak3.Role{}, &entity.Contact{}, &entity.Company{}, &entity.User{})
+	db.AutoMigrate(&entity.Role{}, &entity.Contact{}, &entity.Company{}, &entity.User{})
 
 	g := gin.Default()
 
